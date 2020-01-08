@@ -12,6 +12,8 @@ in an out-queue (a map) and returned to the client when they next poll the serve
 ```
 ![JSPtomcat](C:\Users\Administrator\Desktop\aoop.png)
 
+![JSPtomcat](C:\Users\Administrator\Desktop\AOOP-Assignement\aoop.png)
+
 # Requirements
 ```
 The project must be submitted as a Zip archive (not a 7z, rar or WinRar file). 
