@@ -1,6 +1,16 @@
-# AOOP-Assignement
-Asynchronous Language Detection System
-
+# Asynchronous Language Detection System
+```
+You are required to implement a web-based services capable of identifying the language
+classification of a submitted body of text. As illustrated below, the system is asynchronous, as
+the length of time required to dynamically determine a language may be prohibitively expensive
+for a synchronous mode of messaging. Users should be able to specify some text in a web form
+that, when submitted, is placed in a message queue. The web clients should periodically poll
+the web server with a Job# to ask if the language detection task has been completed. A worker
+process(es) should remove tasks from the queue and make a request on a language detection
+system that uses n-grams to identify a language type. Once completed, the task should be placed
+in an out-queue (a map) and returned to the client when they next poll the server.
+```
+![JSPtomcat](C:\Users\Administrator\Desktop\aoop.png)
 
 # Requirements
 ```
