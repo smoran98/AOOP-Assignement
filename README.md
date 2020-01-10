@@ -15,6 +15,15 @@ https://github.com/smoran98/AOOP-Assignement
 
 # Requirements
 ```
+Tomcat which can be downloaded at https://tomcat.apache.org/download-80.cgi
+
+It deploys Java Servlets and JSPs, you can then build your WAR file, and drop it in the deploy directory in Tomcat.
+
+Tomcat is used by 0.2% OF ALL WEBSITES whose web server we know.
+
+```
+
+```
 Eclipse IDE which can be downloaded at https://www.eclipse.org/downloads/
 
 A working version of Java, with no modules
