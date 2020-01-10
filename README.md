@@ -55,5 +55,5 @@ http://localhost:8080/ngrams/doProcess should have loaded, with a job request be
  
 ```
 
-# **I was unable to generate a proper a JavaDocs**
+**I was unable to generate a proper a JavaDocs**
 
