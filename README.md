@@ -10,6 +10,8 @@ process(es) should remove tasks from the queue and make a request on a language 
 system that uses n-grams to identify a language type. Once completed, the task should be placed
 in an out-queue (a map) and returned to the client when they next poll the server.
 ```
+https://github.com/smoran98/AOOP-Assignement
+
 
 # Requirements
 ```
