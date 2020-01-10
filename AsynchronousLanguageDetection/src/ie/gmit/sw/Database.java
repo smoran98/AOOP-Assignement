@@ -39,7 +39,7 @@ public class Database {
 	public Map<Integer, LanguageEntry> getTop(int max, Language lang) {
 		Map<Integer, LanguageEntry> temp = new TreeMap<>();
 		List<LanguageEntry> les = new ArrayList<>(db.get(lang).values());
-		//Collections.sort(les);
+		Collections.sort(les);
 		
 		int rank = 1;
 		for (LanguageEntry le : les) {

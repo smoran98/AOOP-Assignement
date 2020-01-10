@@ -10,12 +10,13 @@ process(es) should remove tasks from the queue and make a request on a language 
 system that uses n-grams to identify a language type. Once completed, the task should be placed
 in an out-queue (a map) and returned to the client when they next poll the server.
 ```
-![JSPtomcat](C:\Users\Administrator\Desktop\aoop.png)
-
-![JSPtomcat](C:\Users\Administrator\Desktop\AOOP-Assignement\aoop.png)
 
 # Requirements
 ```
+Eclipse IDE which can be downloaded at https://www.eclipse.org/downloads/
+
+A working version of Java, with no modules
+
 The project must be submitted as a Zip archive (not a 7z, rar or WinRar file). 
 
 The name of the Zip archive should be {id}.zip where {id} is your GMIT student number.
@@ -34,3 +35,25 @@ design.png: A UML class diagram of your API design.
 
 docs: A directory containing the JavaDocs for your application. 
 ```
+
+# Steps
+```
+
+Open CMD
+
+Clone with HTTPS
+
+git clone https://github.com/smoran98/AOOP-Assignement.git
+
+Open with Eclipse IDE
+
+Open a browser of your choice, preferably not Microsoft Edge and type: localhost:8080/ngrams and you should see "Language Detection System"
+
+Enter a one of the three options and type in the textarea below, then Click "Process"
+
+http://localhost:8080/ngrams/doProcess should have loaded, with a job request being processed
+ 
+```
+
+# **I was unable to generate a proper a JavaDocs**
+
